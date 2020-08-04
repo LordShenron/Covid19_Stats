@@ -13,11 +13,7 @@ There is another script that can send the stats fetched from the virus tracker t
 
 # Dependencies 
 ```
-pandas==1.0.2
 requests==2.23.0
-seaborn==0.10.0
-matplotlib==3.2.1
-PyYAML==5.3.1
 ```
 
 # How to use

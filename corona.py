@@ -5,18 +5,8 @@
 # As for stats it shows only for India and Worldwide.
 # I also removed all uneeded functions and userinput verifications.
 
-from matplotlib import pyplot
-from pydoc import pager
-from time import sleep
-import argparse
-import datetime as dt
 import json
-import matplotlib
-import pandas as pd
 import requests
-import seaborn
-import sys
-import yaml
 
 def india_stats(url):
     response = requests.get(url, headers={"User-Agent": "XY"})
